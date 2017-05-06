@@ -1,0 +1,23 @@
+{
+  "name": "echoless",
+  "version": "1.0.0",
+  "description": "Project for AngelHack2017",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/shaunakk/angelhack2017.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shaunakk/angelhack2017/issues"
+  },
+  "homepage": "https://github.com/shaunakk/angelhack2017#readme",
+  "devDependencies": {
+    "express": "^4.15.2"
+  }
+}
