@@ -2,7 +2,7 @@ var express = require('express')
 var app = express()
 
 app.set('port', (process.env.PORT || 5000))
-app.use(express.static(__dirname + '/public'))
+app.use(express.static(__dirname + '/echoless/public'))
 
 app.get('/', function(request, response) {
   response.send('ECHOLESS \n\n Made at AngelHack SF 2017')
