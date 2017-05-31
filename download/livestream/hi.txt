@@ -1,0 +1,10 @@
+ssh
+wget https://drive.google.com/uc?id=0B3X9GlR6EmbnUWZGRmYxVUU2M00
+do the cp thing
+sudo install drivepackage /usr/local/bin/drive
+sudo apt-get install sshpass
+sudo apt-get install ffmpeg
+crontab -e
+*/1 * * * * sh /home/shaunak/camera.sh
+sudo nano camera.shx          
+

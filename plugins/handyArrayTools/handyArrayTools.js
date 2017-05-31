@@ -1,0 +1,1 @@
+function deleteOccurence(a,b){for(var c=a.length(),d=0;c>d;d++)a[d]==b&&a.splice(a[d],1);return a}function removeDuplicates(a){var b,c,d=a.length,e=[],f={};for(b=0;d>b;b++)f[a[b]]=0;for(b in f)c=b,e.push(parseInt(c)==b?parseInt(b):b);return e}function pushAtPlace(a,b,c){return c.splice(a,0,b),c}

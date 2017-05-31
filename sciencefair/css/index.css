@@ -1,0 +1,15 @@
+.number{
+	margin: auto !important;
+	text-align: center;
+}
+.instructions{
+	margin: auto !important;
+	text-align:center;
+}
+.countdown{
+	color: #1cb495;
+	font-size: 40px;
+}
+input{
+	width:50%;
+}
